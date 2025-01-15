@@ -1523,7 +1523,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/eslintrc@npm:^3.2.0":
+"@eslint/eslintrc@npm:3.2.0, @eslint/eslintrc@npm:^3.2.0":
   version: 3.2.0
   resolution: "@eslint/eslintrc@npm:3.2.0"
   dependencies:
@@ -3197,6 +3197,7 @@ __metadata:
   dependencies:
     "@babel/core": "npm:7.26.0"
     "@eslint/compat": "npm:1.2.5"
+    "@eslint/eslintrc": "npm:3.2.0"
     "@eslint/js": "npm:9.18.0"
     "@nx/devkit": "npm:20.3.1"
     "@nx/eslint": "npm:20.3.1"
@@ -3205,6 +3206,7 @@ __metadata:
     "@nx/js": "npm:20.3.1"
     "@nx/next": "npm:20.3.1"
     "@nx/playwright": "npm:20.3.1"
+    "@nx/react": "npm:20.3.1"
     "@nx/workspace": "npm:20.3.1"
     "@playwright/test": "npm:1.49.1"
     "@swc-node/register": "npm:1.10.9"
