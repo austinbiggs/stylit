@@ -28,7 +28,7 @@
     "@swc/helpers": "0.5.15",
     "@testing-library/react": "15.0.7",
     "@types/jest": "29.5.14",
-    "@types/node": "18.19.70",
+    "@types/node": "18.19.74",
     "@types/react": "18.3.18",
     "@types/react-dom": "18.3.5",
     "@typescript-eslint/parser": "8.20.0",
