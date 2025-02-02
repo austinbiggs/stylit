@@ -4036,7 +4036,7 @@ __metadata:
     "@nx/workspace": "npm:20.4.0"
     "@playwright/test": "npm:1.50.1"
     "@swc-node/register": "npm:1.10.9"
-    "@swc/cli": "npm:~0.3.12"
+    "@swc/cli": "npm:0.3.14"
     "@swc/core": "npm:1.10.12"
     "@swc/helpers": "npm:0.5.15"
     "@testing-library/react": "npm:16.2.0"
@@ -4045,9 +4045,9 @@ __metadata:
     "@types/react": "npm:19.0.8"
     "@types/react-dom": "npm:19.0.3"
     "@typescript-eslint/parser": "npm:8.22.0"
-    "@vitejs/plugin-react-swc": "npm:^3.5.0"
-    "@vitest/coverage-v8": "npm:^1.0.4"
-    "@vitest/ui": "npm:^1.3.1"
+    "@vitejs/plugin-react-swc": "npm:3.7.2"
+    "@vitest/coverage-v8": "npm:1.6.0"
+    "@vitest/ui": "npm:1.6.0"
     babel-jest: "npm:29.7.0"
     eslint: "npm:9.19.0"
     eslint-config-next: "npm:15.1.6"
@@ -4059,7 +4059,7 @@ __metadata:
     eslint-plugin-react-hooks: "npm:5.1.0"
     jest: "npm:29.7.0"
     jest-environment-jsdom: "npm:29.7.0"
-    jsdom: "npm:~22.1.0"
+    jsdom: "npm:22.1.0"
     next: "npm:15.1.6"
     nx: "npm:20.4.0"
     prettier: "npm:3.4.2"
@@ -4071,9 +4071,9 @@ __metadata:
     tslib: "npm:2.8.1"
     typescript: "npm:5.7.3"
     typescript-eslint: "npm:8.22.0"
-    vite: "npm:^5.0.0"
-    vite-plugin-dts: "npm:~3.8.1"
-    vitest: "npm:^1.3.1"
+    vite: "npm:5.4.14"
+    vite-plugin-dts: "npm:3.9.1"
+    vitest: "npm:1.6.0"
   languageName: unknown
   linkType: soft
 
@@ -4271,7 +4271,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/cli@npm:~0.3.12":
+"@swc/cli@npm:0.3.14":
   version: 0.3.14
   resolution: "@swc/cli@npm:0.3.14"
   dependencies:
@@ -5065,7 +5065,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitejs/plugin-react-swc@npm:^3.5.0":
+"@vitejs/plugin-react-swc@npm:3.7.2":
   version: 3.7.2
   resolution: "@vitejs/plugin-react-swc@npm:3.7.2"
   dependencies:
@@ -5076,7 +5076,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/coverage-v8@npm:^1.0.4":
+"@vitest/coverage-v8@npm:1.6.0":
   version: 1.6.0
   resolution: "@vitest/coverage-v8@npm:1.6.0"
   dependencies:
@@ -5141,7 +5141,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitest/ui@npm:^1.3.1":
+"@vitest/ui@npm:1.6.0":
   version: 1.6.0
   resolution: "@vitest/ui@npm:1.6.0"
   dependencies:
@@ -11014,6 +11014,42 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jsdom@npm:22.1.0":
+  version: 22.1.0
+  resolution: "jsdom@npm:22.1.0"
+  dependencies:
+    abab: "npm:^2.0.6"
+    cssstyle: "npm:^3.0.0"
+    data-urls: "npm:^4.0.0"
+    decimal.js: "npm:^10.4.3"
+    domexception: "npm:^4.0.0"
+    form-data: "npm:^4.0.0"
+    html-encoding-sniffer: "npm:^3.0.0"
+    http-proxy-agent: "npm:^5.0.0"
+    https-proxy-agent: "npm:^5.0.1"
+    is-potential-custom-element-name: "npm:^1.0.1"
+    nwsapi: "npm:^2.2.4"
+    parse5: "npm:^7.1.2"
+    rrweb-cssom: "npm:^0.6.0"
+    saxes: "npm:^6.0.0"
+    symbol-tree: "npm:^3.2.4"
+    tough-cookie: "npm:^4.1.2"
+    w3c-xmlserializer: "npm:^4.0.0"
+    webidl-conversions: "npm:^7.0.0"
+    whatwg-encoding: "npm:^2.0.0"
+    whatwg-mimetype: "npm:^3.0.0"
+    whatwg-url: "npm:^12.0.1"
+    ws: "npm:^8.13.0"
+    xml-name-validator: "npm:^4.0.0"
+  peerDependencies:
+    canvas: ^2.5.0
+  peerDependenciesMeta:
+    canvas:
+      optional: true
+  checksum: 10c0/a1c1501c611d1fe833e0a28796a234325aa09d4c597a9d8ccf6970004a9d946d261469502eadb555bdd7a55f5a2fbf3ce60c727cd99acb0d63f257fb9afcd33d
+  languageName: node
+  linkType: hard
+
 "jsdom@npm:^20.0.0":
   version: 20.0.3
   resolution: "jsdom@npm:20.0.3"
@@ -11050,42 +11086,6 @@ __metadata:
     canvas:
       optional: true
   checksum: 10c0/b109073bb826a966db7828f46cb1d7371abecd30f182b143c52be5fe1ed84513bbbe995eb3d157241681fcd18331381e61e3dc004d4949f3a63bca02f6214902
-  languageName: node
-  linkType: hard
-
-"jsdom@npm:~22.1.0":
-  version: 22.1.0
-  resolution: "jsdom@npm:22.1.0"
-  dependencies:
-    abab: "npm:^2.0.6"
-    cssstyle: "npm:^3.0.0"
-    data-urls: "npm:^4.0.0"
-    decimal.js: "npm:^10.4.3"
-    domexception: "npm:^4.0.0"
-    form-data: "npm:^4.0.0"
-    html-encoding-sniffer: "npm:^3.0.0"
-    http-proxy-agent: "npm:^5.0.0"
-    https-proxy-agent: "npm:^5.0.1"
-    is-potential-custom-element-name: "npm:^1.0.1"
-    nwsapi: "npm:^2.2.4"
-    parse5: "npm:^7.1.2"
-    rrweb-cssom: "npm:^0.6.0"
-    saxes: "npm:^6.0.0"
-    symbol-tree: "npm:^3.2.4"
-    tough-cookie: "npm:^4.1.2"
-    w3c-xmlserializer: "npm:^4.0.0"
-    webidl-conversions: "npm:^7.0.0"
-    whatwg-encoding: "npm:^2.0.0"
-    whatwg-mimetype: "npm:^3.0.0"
-    whatwg-url: "npm:^12.0.1"
-    ws: "npm:^8.13.0"
-    xml-name-validator: "npm:^4.0.0"
-  peerDependencies:
-    canvas: ^2.5.0
-  peerDependenciesMeta:
-    canvas:
-      optional: true
-  checksum: 10c0/a1c1501c611d1fe833e0a28796a234325aa09d4c597a9d8ccf6970004a9d946d261469502eadb555bdd7a55f5a2fbf3ce60c727cd99acb0d63f257fb9afcd33d
   languageName: node
   linkType: hard
 
@@ -16269,9 +16269,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-dts@npm:~3.8.1":
-  version: 3.8.3
-  resolution: "vite-plugin-dts@npm:3.8.3"
+"vite-plugin-dts@npm:3.9.1":
+  version: 3.9.1
+  resolution: "vite-plugin-dts@npm:3.9.1"
   dependencies:
     "@microsoft/api-extractor": "npm:7.43.0"
     "@rollup/pluginutils": "npm:^5.1.0"
@@ -16286,11 +16286,11 @@ __metadata:
   peerDependenciesMeta:
     vite:
       optional: true
-  checksum: 10c0/8b9e0fa985d05d9cfd0037e32c4b6a82352f74f97a66ebb539da76ac18fd68b00f825a6f98ec6d48bb8258db8fa35ea59022cba8731621230c91959e19775c92
+  checksum: 10c0/a38e02f2383df9db4b0b35bece0c2f96fc3f4bf695dd6cf717caadb4be457c1fdb4a87ed77b61a7beec494c730ea4c0656c9f968ecefbe42435f765c3b887996
   languageName: node
   linkType: hard
 
-"vite@npm:^5.0.0":
+"vite@npm:5.4.14, vite@npm:^5.0.0":
   version: 5.4.14
   resolution: "vite@npm:5.4.14"
   dependencies:
@@ -16333,7 +16333,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vitest@npm:^1.3.1":
+"vitest@npm:1.6.0":
   version: 1.6.0
   resolution: "vitest@npm:1.6.0"
   dependencies:
