@@ -29,7 +29,9 @@ const nextConfig: WithNxOptions = {
 };
 
 // Nextra config
-const nextraConfig: NextraConfig = {};
+const nextraConfig: NextraConfig = {
+
+};
 const withNextra = nextra(nextraConfig);
 
 // Next plugins
