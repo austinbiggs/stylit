@@ -1,1 +1,1 @@
-export * from './lib/stylit';
+export { stylit } from './primitives';
