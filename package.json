@@ -4,8 +4,8 @@
   "private": true,
   "dependencies": {
     "next": "15.1.6",
-    "nextra": "4.2.1",
-    "nextra-theme-docs": "4.2.1",
+    "nextra": "4.2.7",
+    "nextra-theme-docs": "4.2.7",
     "react": "19.0.0",
     "react-dom": "19.0.0"
   },
