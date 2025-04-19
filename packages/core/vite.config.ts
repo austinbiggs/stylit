@@ -8,7 +8,7 @@ import { nxCopyAssetsPlugin } from '@nx/vite/plugins/nx-copy-assets.plugin';
 
 export default defineConfig({
   root: __dirname,
-  cacheDir: '../../node_modules/.vite/packages/stylit',
+  cacheDir: '../../node_modules/.vite/packages/core',
   plugins: [
     react(),
     nxViteTsPaths(),
@@ -25,7 +25,7 @@ export default defineConfig({
   // Configuration for building your library.
   // See: https://vitejs.dev/guide/build.html#library-mode
   build: {
-    outDir: '../../dist/packages/stylit',
+    outDir: '../../dist/packages/core',
     emptyOutDir: true,
     reportCompressedSize: true,
     commonjsOptions: {
@@ -52,7 +52,7 @@ export default defineConfig({
     include: ['src/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
     reporters: ['default'],
     coverage: {
-      reportsDirectory: '../../coverage/packages/stylit',
+      reportsDirectory: '../../coverage/packages/core',
       provider: 'v8',
     },
   },

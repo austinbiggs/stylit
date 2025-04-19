@@ -1,8 +1,30 @@
 {
   "name": "@stylit/source",
   "version": "0.0.0",
-  "private": true,
+  "author": "Austin Biggs <npm@austinbiggs.com> (https://austinbiggs.com)",
+  "description": "Dead simple React primitives for (S)CSS modules",
+  "keywords": [
+    "react",
+    "styles",
+    "style primitives",
+    "styled components",
+    "component styles",
+    "css",
+    "css primitives",
+    "css helpers",
+    "scss",
+    "scss primitives",
+    "scss helpers",
+    "sass",
+    "sass primitives",
+    "sass helpers"
+  ],
+  "homepage": "https://stylit.dev",
+  "bugs": {
+    "url": "https://github.com/austinbiggs/stylit/issues"
+  },
   "dependencies": {
+    "clsx": "2.1.1",
     "next": "15.3.1",
     "react": "19.1.0",
     "react-dom": "19.1.0"
