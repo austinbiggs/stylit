@@ -23,6 +23,7 @@
     },
     {
       "extends": [
+        "monorepo:eslint",
         "monorepo:graphqlcodegenerator",
         "monorepo:nextjs",
         "monorepo:nx",
