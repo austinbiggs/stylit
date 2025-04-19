@@ -4,16 +4,16 @@ runs:
   using: 'composite'
   steps:
     - name: 'Derive appropriate SHAs for base and head for `nx affected` commands'
-      uses: nrwl/nx-set-shas@e2e6dc8bce4b0387a05eb687735c39c41580b792 # v4
+      uses: nrwl/nx-set-shas@dbe0650947e5f2c81f59190a38512cf49126fe6b # v4
 
     - name: 'Setup Node'
-      uses: actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a # v4
+      uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
       with:
         node-version-file: '.nvmrc'
         cache: 'yarn'
 
     - name: 'Cache dependencies'
-      uses: actions/cache@1bd1e32a3bdc45362d1e726936510720a7c30a57 # v4
+      uses: actions/cache@5a3ec84eff668545956fd18022155c47e93e2684 # v4
       with:
         path: ~/.npm
         key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}

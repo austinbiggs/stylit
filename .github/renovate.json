@@ -1,6 +1,37 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended"
+  "extends": ["config:best-practices"],
+  "branchConcurrentLimit": 15,
+  "prConcurrentLimit": 15,
+  "prCreation": "not-pending",
+  "hostRules": [
+    {
+      "matchHost": "github.com",
+      "concurrentRequestLimit": 10
+    }
+  ],
+  "packageRules": [
+    {
+      "matchDepTypes": ["devDependencies"],
+      "matchPackageNames": ["lint", "prettier"],
+      "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchCurrentVersion": "!/^0/",
+      "automerge": true
+    },
+    {
+      "extends": [
+        "monorepo:eslint",
+        "monorepo:graphqlcodegenerator",
+        "monorepo:nextjs",
+        "monorepo:nx",
+        "monorepo:react",
+        "monorepo:swc"
+      ],
+      "matchUpdateTypes": ["patch", "minor"],
+      "automerge": true
+    }
   ]
 }
