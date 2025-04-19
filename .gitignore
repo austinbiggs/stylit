@@ -144,8 +144,8 @@ __tests__/__output
 .next
 
 # Remix files
-apps/**/build
-apps/**/.cache
+apps-/**/build
+apps-/**/.cache
 
 # Sentry Config File
 .env.sentry-build-plugin

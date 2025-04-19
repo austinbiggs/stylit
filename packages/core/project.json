@@ -1,7 +1,7 @@
 {
-  "name": "stylit",
+  "name": "core",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "packages/stylit/src",
+  "sourceRoot": "packages/core/src",
   "projectType": "library",
   "tags": [],
   "// targets": "to see all targets run: nx show project stylit --web",
