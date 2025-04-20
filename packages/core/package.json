@@ -1,6 +1,6 @@
 {
   "name": "@stylit/core",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "private": false,
   "author": "Austin Biggs <npm@austinbiggs.com> (https://austinbiggs.com)",
   "description": "Dead simple React primitives for (S)CSS modules",
