@@ -3,6 +3,12 @@ name: Set Up Project
 runs:
   using: 'composite'
   steps:
+    - name: 'Install PNPM'
+      uses: pnpm/action-setup@v4
+      with:
+        version: 10.13.1 # Optional: Specify the desired pnpm version
+        # run_install: true # Optional: Automatically run `pnpm install` after setup
+
     - name: 'Derive appropriate SHAs for base and head for `nx affected` commands'
       uses: nrwl/nx-set-shas@dbe0650947e5f2c81f59190a38512cf49126fe6b # v4
 
