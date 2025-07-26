@@ -4,7 +4,7 @@ runs:
   using: 'composite'
   steps:
     - name: 'Install PNPM'
-      uses: pnpm/action-setup@v4
+      uses: pnpm/action-setup@a7487c7e89a18df4991f7f222e4898a00d66ddda # v4
       with:
         version: 10.13.1 # Optional: Specify the desired pnpm version
         # run_install: true # Optional: Automatically run `pnpm install` after setup
