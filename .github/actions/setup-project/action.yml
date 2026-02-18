@@ -6,7 +6,7 @@ runs:
     - name: 'Install PNPM'
       uses: pnpm/action-setup@41ff72655975bd51cab0327fa583b6e92b6d3061 # v4
       with:
-        version: 10.19.0 # Optional: Specify the desired pnpm version
+        version: 10.29.3 # Optional: Specify the desired pnpm version
         # run_install: true # Optional: Automatically run `pnpm install` after setup
 
     - name: 'Derive appropriate SHAs for base and head for `nx affected` commands'
