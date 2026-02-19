@@ -75,7 +75,7 @@
     "jest-environment-jsdom": "29.7.0",
     "jsdom": "27.4.0",
     "nx": "20.8.2",
-    "prettier": "3.6.2",
+    "prettier": "3.8.1",
     "sass": "1.86.3",
     "ts-jest": "29.4.5",
     "ts-node": "10.9.2",
