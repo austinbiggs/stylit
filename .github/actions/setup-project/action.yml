@@ -10,7 +10,7 @@ runs:
         # run_install: true # Optional: Automatically run `pnpm install` after setup
 
     - name: 'Derive appropriate SHAs for base and head for `nx affected` commands'
-      uses: nrwl/nx-set-shas@826660b82addbef3abff5fa871492ebad618c9e1 # v4
+      uses: nrwl/nx-set-shas@3e9ad7370203c1e93d109be57f3b72eb0eb511b1 # v4
 
     - name: 'Setup Node'
       uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
