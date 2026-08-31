@@ -13,7 +13,7 @@ importers:
         version: 2.1.1
       next:
         specifier: 16.3.0
-        version: 16.3.0(@babel/core@7.29.6)(@playwright/test@1.61.1)(@types/node@24.10.13)(babel-plugin-macros@3.1.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.86.3)
+        version: 16.3.0(@babel/core@7.29.6)(@playwright/test@1.61.1)(@types/node@24.13.3)(babel-plugin-macros@3.1.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.86.3)
       react:
         specifier: 19.1.1
         version: 19.1.1
@@ -50,7 +50,7 @@ importers:
         version: 20.8.2(@babel/traverse@7.29.7)(@swc-node/register@1.10.10(@swc/core@1.11.21(@swc/helpers@0.5.17))(@swc/types@0.1.27)(typescript@5.9.3))(@swc/core@1.11.21(@swc/helpers@0.5.17))(nx@22.7.7(@swc-node/register@1.10.10(@swc/core@1.11.21(@swc/helpers@0.5.17))(@swc/types@0.1.27)(typescript@5.9.3))(@swc/core@1.11.21(@swc/helpers@0.5.17)))
       '@nx/next':
         specifier: 20.8.2
-        version: 20.8.2(@babel/core@7.29.6)(@babel/traverse@7.29.7)(@rspack/core@1.7.12(@swc/helpers@0.5.17))(@swc-node/register@1.10.10(@swc/core@1.11.21(@swc/helpers@0.5.17))(@swc/types@0.1.27)(typescript@5.9.3))(@swc/core@1.11.21(@swc/helpers@0.5.17))(@swc/helpers@0.5.17)(@zkochan/js-yaml@0.0.7)(esbuild@0.27.7)(eslint@9.25.0(jiti@2.4.2))(next@16.3.0(@babel/core@7.29.6)(@playwright/test@1.61.1)(@types/node@24.10.13)(babel-plugin-macros@3.1.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.86.3))(nx@22.7.7(@swc-node/register@1.10.10(@swc/core@1.11.21(@swc/helpers@0.5.17))(@swc/types@0.1.27)(typescript@5.9.3))(@swc/core@1.11.21(@swc/helpers@0.5.17)))(postcss@8.5.23)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.9.3)(webpack@5.109.0(@swc/core@1.11.21(@swc/helpers@0.5.17))(esbuild@0.27.7)(postcss@8.5.23))
+        version: 20.8.2(@babel/core@7.29.6)(@babel/traverse@7.29.7)(@rspack/core@1.7.12(@swc/helpers@0.5.17))(@swc-node/register@1.10.10(@swc/core@1.11.21(@swc/helpers@0.5.17))(@swc/types@0.1.27)(typescript@5.9.3))(@swc/core@1.11.21(@swc/helpers@0.5.17))(@swc/helpers@0.5.17)(@zkochan/js-yaml@0.0.7)(esbuild@0.27.7)(eslint@9.25.0(jiti@2.4.2))(next@16.3.0(@babel/core@7.29.6)(@playwright/test@1.61.1)(@types/node@24.13.3)(babel-plugin-macros@3.1.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.86.3))(nx@22.7.7(@swc-node/register@1.10.10(@swc/core@1.11.21(@swc/helpers@0.5.17))(@swc/types@0.1.27)(typescript@5.9.3))(@swc/core@1.11.21(@swc/helpers@0.5.17)))(postcss@8.5.23)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.9.3)(webpack@5.109.0(@swc/core@1.11.21(@swc/helpers@0.5.17))(esbuild@0.27.7)(postcss@8.5.23))
       '@nx/playwright':
         specifier: 20.8.2
         version: 20.8.2(@babel/traverse@7.29.7)(@playwright/test@1.61.1)(@swc-node/register@1.10.10(@swc/core@1.11.21(@swc/helpers@0.5.17))(@swc/types@0.1.27)(typescript@5.9.3))(@swc/core@1.11.21(@swc/helpers@0.5.17))(@zkochan/js-yaml@0.0.7)(eslint@9.25.0(jiti@2.4.2))(nx@22.7.7(@swc-node/register@1.10.10(@swc/core@1.11.21(@swc/helpers@0.5.17))(@swc/types@0.1.27)(typescript@5.9.3))(@swc/core@1.11.21(@swc/helpers@0.5.17)))(typescript@5.9.3)
@@ -148,8 +148,8 @@ importers:
         specifier: 22.7.7
         version: 22.7.7(@swc-node/register@1.10.10(@swc/core@1.11.21(@swc/helpers@0.5.17))(@swc/types@0.1.27)(typescript@5.9.3))(@swc/core@1.11.21(@swc/helpers@0.5.17))
       prettier:
-        specifier: 3.9.5
-        version: 3.9.5
+        specifier: 3.9.6
+        version: 3.9.6
       sass:
         specifier: 1.86.3
         version: 1.86.3
@@ -4678,6 +4678,7 @@ packages:
   eslint@9.25.0:
     resolution: {integrity: sha512-MsBdObhM4cEwkzCiraDv7A6txFXEqtNXOb877TsSp2FCkBNl8JfVQrmiuDqC1IkejT6JLPzYBXx/xAiYhyzgGA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -6736,8 +6737,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier@3.9.5:
-    resolution: {integrity: sha512-/FVl766LpUfB5vXgCYOYa0MeV/441Ia99AeICQIQFTY/Nw0roZwULcXpku5i1/m5kt/baz+s4Zogspd839HSMg==}
+  prettier@3.9.6:
+    resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -10574,7 +10575,7 @@ snapshots:
       - vue-tsc
       - webpack-cli
 
-  '@nx/next@20.8.2(@babel/core@7.29.6)(@babel/traverse@7.29.7)(@rspack/core@1.7.12(@swc/helpers@0.5.17))(@swc-node/register@1.10.10(@swc/core@1.11.21(@swc/helpers@0.5.17))(@swc/types@0.1.27)(typescript@5.9.3))(@swc/core@1.11.21(@swc/helpers@0.5.17))(@swc/helpers@0.5.17)(@zkochan/js-yaml@0.0.7)(esbuild@0.27.7)(eslint@9.25.0(jiti@2.4.2))(next@16.3.0(@babel/core@7.29.6)(@playwright/test@1.61.1)(@types/node@24.10.13)(babel-plugin-macros@3.1.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.86.3))(nx@22.7.7(@swc-node/register@1.10.10(@swc/core@1.11.21(@swc/helpers@0.5.17))(@swc/types@0.1.27)(typescript@5.9.3))(@swc/core@1.11.21(@swc/helpers@0.5.17)))(postcss@8.5.23)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.9.3)(webpack@5.109.0(@swc/core@1.11.21(@swc/helpers@0.5.17))(esbuild@0.27.7)(postcss@8.5.23))':
+  '@nx/next@20.8.2(@babel/core@7.29.6)(@babel/traverse@7.29.7)(@rspack/core@1.7.12(@swc/helpers@0.5.17))(@swc-node/register@1.10.10(@swc/core@1.11.21(@swc/helpers@0.5.17))(@swc/types@0.1.27)(typescript@5.9.3))(@swc/core@1.11.21(@swc/helpers@0.5.17))(@swc/helpers@0.5.17)(@zkochan/js-yaml@0.0.7)(esbuild@0.27.7)(eslint@9.25.0(jiti@2.4.2))(next@16.3.0(@babel/core@7.29.6)(@playwright/test@1.61.1)(@types/node@24.13.3)(babel-plugin-macros@3.1.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.86.3))(nx@22.7.7(@swc-node/register@1.10.10(@swc/core@1.11.21(@swc/helpers@0.5.17))(@swc/types@0.1.27)(typescript@5.9.3))(@swc/core@1.11.21(@swc/helpers@0.5.17)))(postcss@8.5.23)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(typescript@5.9.3)(webpack@5.109.0(@swc/core@1.11.21(@swc/helpers@0.5.17))(esbuild@0.27.7)(postcss@8.5.23))':
     dependencies:
       '@babel/plugin-proposal-decorators': 7.29.7(@babel/core@7.29.6)
       '@nx/devkit': 20.8.2(nx@22.7.7(@swc-node/register@1.10.10(@swc/core@1.11.21(@swc/helpers@0.5.17))(@swc/types@0.1.27)(typescript@5.9.3))(@swc/core@1.11.21(@swc/helpers@0.5.17)))
@@ -10588,7 +10589,7 @@ snapshots:
       copy-webpack-plugin: 10.2.4(webpack@5.109.0(@swc/core@1.11.21(@swc/helpers@0.5.17))(esbuild@0.27.7)(postcss@8.5.23))
       file-loader: 6.2.0(webpack@5.109.0(@swc/core@1.11.21(@swc/helpers@0.5.17))(esbuild@0.27.7)(postcss@8.5.23))
       ignore: 5.3.2
-      next: 16.3.0(@babel/core@7.29.6)(@playwright/test@1.61.1)(@types/node@24.10.13)(babel-plugin-macros@3.1.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.86.3)
+      next: 16.3.0(@babel/core@7.29.6)(@playwright/test@1.61.1)(@types/node@24.13.3)(babel-plugin-macros@3.1.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.86.3)
       semver: 7.8.5
       tslib: 2.8.1
       webpack-merge: 5.10.0
@@ -15440,7 +15441,7 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  next@16.3.0(@babel/core@7.29.6)(@playwright/test@1.61.1)(@types/node@24.10.13)(babel-plugin-macros@3.1.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.86.3):
+  next@16.3.0(@babel/core@7.29.6)(@playwright/test@1.61.1)(@types/node@24.13.3)(babel-plugin-macros@3.1.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.86.3):
     dependencies:
       '@next/env': 16.3.0
       '@swc/helpers': 0.5.15
@@ -15461,7 +15462,7 @@ snapshots:
       '@next/swc-win32-x64-msvc': 16.3.0
       '@playwright/test': 1.61.1
       sass: 1.86.3
-      sharp: 0.35.3(@types/node@24.10.13)
+      sharp: 0.35.3(@types/node@24.13.3)
     transitivePeerDependencies:
       - '@babel/core'
       - '@types/node'
@@ -16180,7 +16181,7 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier@3.9.5: {}
+  prettier@3.9.6: {}
 
   pretty-format@27.5.1:
     dependencies:
@@ -16720,7 +16721,7 @@ snapshots:
     dependencies:
       kind-of: 6.0.3
 
-  sharp@0.35.3(@types/node@24.10.13):
+  sharp@0.35.3(@types/node@24.13.3):
     dependencies:
       '@img/colour': 1.1.0
       detect-libc: 2.1.2
@@ -16751,7 +16752,7 @@ snapshots:
       '@img/sharp-win32-arm64': 0.35.3
       '@img/sharp-win32-ia32': 0.35.3
       '@img/sharp-win32-x64': 0.35.3
-      '@types/node': 24.10.13
+      '@types/node': 24.13.3
     optional: true
 
   shebang-command@2.0.0:
