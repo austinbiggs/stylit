@@ -1,0 +1,10 @@
+# pnpm 12 refuses to install while a dependency's build script is neither
+# allowed nor denied. These were already being skipped (ignored with a warning)
+# under pnpm 10, so `false` records that existing behavior rather than
+# changing it. Flip one to `true` if its postinstall is ever actually needed.
+allowBuilds:
+  '@parcel/watcher': false
+  '@swc/core': false
+  esbuild: false
+  nx: false
+  unrs-resolver: false
