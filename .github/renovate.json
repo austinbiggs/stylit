@@ -1,13 +1,21 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:best-practices", "schedule:weekly"],
-  "branchConcurrentLimit": 15,
-  "prConcurrentLimit": 15,
+  "extends": ["config:best-practices", "schedule:weekly", "group:allNonMajor"],
+  "branchConcurrentLimit": 5,
+  "prConcurrentLimit": 5,
   "prCreation": "not-pending",
+  "automergeStrategy": "squash",
   "hostRules": [
     {
       "matchHost": "github.com",
       "concurrentRequestLimit": 10
+    }
+  ],
+  "packageRules": [
+    {
+      "description": "Non-major bumps merge themselves once CI is green. Majors stay manual.",
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
     }
   ]
 }
