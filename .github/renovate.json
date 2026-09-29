@@ -1,6 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:best-practices", "schedule:weekly", "group:allNonMajor"],
+  "extends": ["config:best-practices", "schedule:weekly"],
+  "separateMinorPatch": true,
   "branchConcurrentLimit": 5,
   "prConcurrentLimit": 5,
   "prCreation": "not-pending",
@@ -12,6 +13,20 @@
     }
   ],
   "packageRules": [
+    {
+      "description": "One weekly PR for every minor bump. Separate from patches so a breaking minor is isolated from the patch batch.",
+      "groupName": "all minor dependencies",
+      "groupSlug": "all-minor",
+      "matchPackageNames": ["*"],
+      "matchUpdateTypes": ["minor"]
+    },
+    {
+      "description": "One weekly PR for every patch bump.",
+      "groupName": "all patch dependencies",
+      "groupSlug": "all-patch",
+      "matchPackageNames": ["*"],
+      "matchUpdateTypes": ["patch"]
+    },
     {
       "description": "Non-major bumps merge themselves once CI is green. Majors stay manual.",
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
